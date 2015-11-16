@@ -1,0 +1,14 @@
+name: AnthraxSB
+main: asb.pixel.dev.Main
+version: 1.1.2
+description: Custom ScoreBoard for "Anthrax"
+depend: [Vault]
+commands:
+  asb:
+    usage: /<command>
+    description: Shows info about AnthraxSB.
+    permission: asb.info
+permissions:
+    asb.info:
+        description: Shows info about AnthraxSB
+        default: op
